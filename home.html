@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css" >
+<title>Home</title>
+</head>
+
+<body>
+    <header id="navbar">
+        <nav>
+            <ul>
+                <li class="name">CareerCrafter</li>
+                <li><a href="" class="login">Log In</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Help</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="home.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="welcome">
+                <h1 class="welcome-title">
+                    <span>Let the jobs find you!</span>
+                </h1>
+
+                <div class="button" id="searchbutton">
+                    <span class="title" placeholder="Job title, company or industry">Job title, company or industry</span>
+                    <div class="search">
+                    <svg viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M4.35 8.75a4.25 4.25 0 1 1 8.5 0 4.25 4.25 0 0 1-8.5 0ZM8.6 2.5a6.25 6.25 0 1 0 3.847 11.176l3.481 3.48a1 1 0 0 0 1.415-1.413l-3.536-3.536A6.25 6.25 0 0 0 8.6 2.5Z"></path>
+                    </svg>
+                    </div>
+                </div>
+
+                <script>
+                    const searchButton = document.getElementById('searchbutton');
+                    searchButton.addEventListener('click', function() {
+                        console.log('Search button clicked');
+                    });
+                </script>
+        </section>
+        
+            <div class="background">
+                <div class="content">
+                  <div class="text">
+                    <h2>Experience the new way to work</h2>
+                    <p>See jobs we've picked just for you</p>
+                  </div>
+                  <button class="action">Get started</button>
+                </div>
+            </div>
+    </main>
+
+    <section id="list">
+        <div class="container part1">
+            <div class="description">
+                <h3>Tell us more about your goals</h3>
+                <p>Let’s delve into your aspirations and objectives. What are you aiming to achieve? Whether it’s personal growth, career advancement, or a specific project, I’d love to hear more about your goals. Feel free to share any details you’d like.🌟</p>
+                <a class="seemore" href="">
+                    <span>Post a Job 
+                        &gt;</span> 
+                </a>
+            </div>
+            
+            <img src="1.jpg" alt="image1" id="img1">
+        </div>
+        <!-- <hr> -->
+
+        <div class="container part2">
+            <img src="2.jpg" alt="image2" id="img2">
+
+            <div class="description">
+                <h3>Apply to jobs instantly</h3>
+                <p>Your profile is your application. Having a polished profile is essential for job seekers, as it directly impacts their job applications.Instead of traditional paper applications,your profile serves as the primary means to express your qualifications and skills to potential employers. 🚀</p>
+                <a class="seemore" href="">
+                    <span>Get hired
+                        &gt; </span>
+                </a>           
+            </div>
+        </div>
+        <!-- <hr> -->
+
+        <div class="container part3">
+            <div class="description">
+                <h3>Ready to level-up?</h3>
+                <p>To level up and achieve your goals, actively seek guidance and apply practical tips.Embrace a mindset that is open to learning, adapting, and evolving. Recognize that there’s always room for improvement.  😊</p>
+                <a class="seemore"  href="">
+                    <span>Learn more 
+                        &gt; </span>
+                </a>           
+            </div>
+
+            <img src="3.jpg" alt="image3" id="img3">
+        </div>
+    </section>
+
+    <footer id="still">
+            <p>Still haven't found what you're looking for?</p>
+            <div>
+                <button class="browse">Browse jobs</button>
+            </div>
+
+            <div class="social">
+
+                <a href="https://www.facebook.com/" target="_blank"  class="fb">
+                    <i class="fab fa-facebook"></i>
+                </a>
+        
+                <a href="https://www.instagram.com/" target="_blank"  class="insta">
+                    <i class="fab fa-instagram"></i>
+                </a>
+        
+                <a href="https://web.whatsapp.com/" target="_blank" class="wapp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        <br>
+        <span> &copy; group fifteen 2024,
+            All rights reserved.
+        </span>
+    </footer>
+</body>
+</html>
